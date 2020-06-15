@@ -1,7 +1,10 @@
-name: Fallback
-main: xyz.nkomarn.Fallback.Fallback
-version: 1.0
+name: Backfire
+main: xyz.nkomarn.Backfire.Backfire
+version: 2.1
 author: TechToolbox (@nkomarn)
 description: A simple plugin to control the Fallback server.
-api-version: 1.13
-depend: ['LuckPerms']
+api-version: 1.15
+
+permissions:
+  backfire.priority:
+    description: "Gives a player premium priority in the queue."

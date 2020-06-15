@@ -1,20 +1,20 @@
 server:
   hostname: ""
   port: 25565
-  protocol: 573
-  version: "1.15"
+  version: "1.15.2"
+  name: "survival"
 
 messages:
   actionbar:
-    down: "&6&l ✗ The main server is currently down (downtime: %s minutes)."
-    online: "&a&l✓ Main server is back online."
+    down: "&6&l ✗ Main server currently down (downtime: %s minutes)."
+    up: "&a&l✓ Main server is back online."
+    queue: "&5&lQueue: &dYour current position is %s/%s."
     incompatible: "&c&l ✗ You must be running %s to connect to the main server."
   chat:
     down: "&6&lThe main server is currently down.\n&6Please wait until it is back up. You will be automatically reconnected when it is up."
+    up: "&a&lThe main server is now online.\n&aPlease wait as you are automatically sent to the server."
+    full: "&d&lThe main server is currently full.\n&dYou have been placed in a queue- please wait until you are connected."
     incompatible: "&6&lNOTICE: &7You must be running version %s to connect to the main server."
-  tablist:
-    header: "&r \n&c&lFirestarter\n&7&oFallback Server\n\n&6The main server is currently down. Please wait\n&6until it is brought back online. You will be automatically\n&6reconnected when possible.\n&r "
-    footer: " "
   title:
     incompatible:
       top: "&c&lIncompatible client."
