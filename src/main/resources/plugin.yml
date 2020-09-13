@@ -1,10 +1,7 @@
 name: Backfire
-main: xyz.nkomarn.Backfire.Backfire
-version: 2.1
+main: xyz.nkomarn.backfire.Backfire
+version: 2.2
 author: TechToolbox (@nkomarn)
-description: A simple plugin to control the Fallback server.
-api-version: 1.15
-
-permissions:
-  backfire.priority:
-    description: "Gives a player premium priority in the queue."
+description: A simple plugin to control the Lobby server.
+api-version: 1.16
+depend: ['ViaVersion']
